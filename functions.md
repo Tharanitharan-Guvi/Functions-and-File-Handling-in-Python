@@ -152,4 +152,4 @@ When we declare a variable inside the function, these variables are will have a 
 a variable declared outside of the function or in global scope is known as a global variable. This means that a global variable can be accessed inside or outside of the function.
 
 
-![Image of Local and Global Variables]("Screenshot 2023-11-24 112019.png")
+![Image of Local and Global Variables]("Screenshot%202023-11-24%20112019.png")
