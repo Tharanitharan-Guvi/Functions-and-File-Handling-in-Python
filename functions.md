@@ -158,11 +158,12 @@ a variable declared outside of the function or in global scope is known as a glo
 
 Ever Imagined how various functions would work if they don't know how many arguments it is going to get in advance like print function in python. 
 
+```python
 print(1)
 print(2,3,4)
 print(3,4,5,6)
 print()
-
+```
 In these cases we use something known as **arbitary arguments**
 
 
