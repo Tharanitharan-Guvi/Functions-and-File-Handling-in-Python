@@ -153,3 +153,46 @@ a variable declared outside of the function or in global scope is known as a glo
 
 
 ![Image of Local and Global Variables]("Screenshot%202023-11-24%20112019.png")
+
+
+Ever Imagined how various functions would work if they don't know how many arguments it is going to get in advance like print function in python. 
+
+print(1)
+print(2,3,4)
+print(3,4,5,6)
+print()
+
+In these cases we use something known as **arbitary arguments**
+---
+
+## Arbitary Arguments
+
+We do not know the number of argument that will be
+passed into a function in advance then we will use
+the arbitary arguments.
+
+```python
+
+def find_sum(*numbers):
+    print(numbers)
+    print(type(numbers))
+    print(sum(numbers))
+
+find_sum(10,20,30,40)
+find_sum(10)
+find_sum(1,2)
+
+```
+
+## Keyword Arbitary Argument
+
+```python
+
+def personInformation(**info):
+    print(info)
+    print(type(info))
+
+
+personInformation(name="Tharani", role="Mentor")
+
+```
